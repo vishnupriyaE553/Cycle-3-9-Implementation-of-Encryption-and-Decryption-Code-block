@@ -14,6 +14,7 @@ PC with Linux operating system
 6]	The encrypted form of the message is displayed.
 7]	The decrypted form is also displayed as final output. 8] Thus the output is obtained.
 ## Program
+```
 #include<stdio.h> #include<stdlib.h> #include<math.h> #include<string.h>
 longintp,q,n,t,flag,e[100],d[100],temp[100],j,m[100],en[100],i; char msg[100];
 int prime(longint); void ce();
@@ -103,13 +104,11 @@ for(i=0;m[i]!=-1; i++
 printf("%c",m[i]);
 }
 
+```
+OUTPUT:
 
-
-
-
-
-
-SAMPLE OUTPUT:
+<img width="510" height="615" alt="image" src="https://github.com/user-attachments/assets/26f9ba4c-4914-4ea7-8ea5-11056cea6f79" />
 
 RESULT:
+
 Thus the encryption and decryption is implemented and the output is obtained and verified successfully
